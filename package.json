@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "name": "simple-hub",
+  "workspaces": ["packages/*"],
+  "scripts": {}
+}
