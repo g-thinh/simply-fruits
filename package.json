@@ -3,7 +3,7 @@
   "name": "simple-hub",
   "workspaces": [
     "client",
-    "api"
+    "server"
   ],
   "scripts": {}
 }
