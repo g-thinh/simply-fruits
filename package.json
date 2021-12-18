@@ -1,6 +1,9 @@
 {
   "private": true,
   "name": "simple-hub",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "client",
+    "api"
+  ],
   "scripts": {}
 }
