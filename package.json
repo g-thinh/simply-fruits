@@ -6,7 +6,7 @@
     "server"
   ],
   "scripts": {
-    "postinstall": "cd server && yarn && cd clientnpm install client",
+    "postinstall": "cd server && yarn && cd client && yarn",
     "start": "node server/dist/main"
   }
 }
