@@ -5,8 +5,11 @@
     "client",
     "server"
   ],
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "postinstall": "cd server && yarn && cd client && yarn",
+    "postinstall": "cd server && yarn build",
     "start": "node server/dist/main"
   }
 }
