@@ -1,9 +1,12 @@
 {
   "private": true,
-  "name": "simple-hub",
+  "name": "simple-shop",
   "workspaces": [
     "client",
     "server"
   ],
-  "scripts": {}
+  "scripts": {
+    "postinstall": "cd server && yarn && cd clientnpm install client",
+    "start": "node server/dist/main"
+  }
 }
